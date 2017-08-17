@@ -1,12 +1,20 @@
+/**
+* @file calcula.cpp 
+* @author Rosangela DAvilla
+* @since 10/08/2017
+* @date	17/08/2017
+*/
+
 #include <iostream>
 #include <cstdlib>
-#include "area.h"
-#include "perimetro.h"
-#include "volume.h"
-#include "calcula.h"
+#include "include/Q1/area.h"
+#include "include/Q1/perimetro.h"
+#include "include/Q1/volume.h"
+#include "include/Q1/calcula.h"
 
 using namespace std;
 
+//* @brief Esta funcao pede ao usuario as medidas da figura de acordo com sua opcao e retorna as medidas.
 void Qualfigura (int op){
 
 	int x,y,z;

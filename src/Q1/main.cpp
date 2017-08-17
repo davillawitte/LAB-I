@@ -1,14 +1,24 @@
+/**
+* @file main.cpp
+* @brief Funcao principal.
+* @brief O programa é uma calculadora de geomatria plana e espacial 
+* @author Rosangela DAvilla
+* @since 10/08/2017
+* @date	17/08/2017
+*/
+
 #include <iostream>
 #include <cstdlib>
-#include "area.h"
-#include "perimetro.h"
-#include "volume.h"
-#include "calcula.h"
+#include "include/Q1/area.h"
+#include "include/Q1/perimetro.h"
+#include "include/Q1/volume.h"
+#include "include/Q1/calcula.h"
 
 using namespace std;
 
 int main(){
 
+	//@param opcao variavel que guarda a opcao escolhida pelo usuário e a repassa para a função "Qualfigura"
 	int opcao = 0;
  
 	do{
@@ -27,7 +37,7 @@ int main(){
 		cin >> opcao;
 		Qualfigura(opcao);
 		
-	cout << "----------------------------------------------------------" << endl << endl;
+	cout << "=============================================" << endl << endl;
 	}while(opcao >= 0 && opcao < 9);
 
 return 0;

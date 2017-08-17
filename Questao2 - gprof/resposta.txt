@@ -1,0 +1,1 @@
+De acordo com o arquivo gerado pelo gprof, a função fatorial é a mais chamada (3x) e todas as funcoes levaram 0,0s.

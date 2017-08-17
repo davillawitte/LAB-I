@@ -1,5 +1,14 @@
+/**
+* @file volume.cpp
+* @brief Estas funçoes calculam o volume de figuras espaciais. 
+* @author Rosangela DAvilla
+* @since 10/08/2017
+* @date	17/08/2017
+*/
+
 #include <cmath>
 
+//@return volume da piramide
 int vPiramide(int x, int y){
 	int volume;
 
@@ -7,6 +16,7 @@ int vPiramide(int x, int y){
 return volume;
 }
 
+//@return volume do cubo
 int vCubo(int x){
 	int volume;
 
@@ -14,6 +24,7 @@ int vCubo(int x){
 return volume;
 }
 
+//@return volume do paralelepipedo
 int vParalelepipedo(int x, int y){
 	int volume;
 
@@ -21,6 +32,7 @@ int vParalelepipedo(int x, int y){
 return volume;
 }
 
+//@return volume da esfera
 float vEsfera(int x){
 	float volume;
 

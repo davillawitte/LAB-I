@@ -1,3 +1,12 @@
+/**
+* @file anterior.cpp
+* @brief Funcao principal.
+* @brief O Programa mostra o numero primo anterior ao fatorial de n 
+* @author Rosangela DAvilla
+* @since 10/08/2017
+* @date	17/08/2017
+*/
+
 #include <iostream>
 #include "fatorial.h"
 #include "primalidade.h"

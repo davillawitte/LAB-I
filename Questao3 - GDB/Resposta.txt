@@ -1,0 +1,14 @@
+#RESPOSTA DA QUESTAO 03
+
+funcX: Depois da chamada da função funcX na linha 30, o valor de arg1 e arg2 foram alterados para 12 e 24,respectivamente;
+
+funcY:Depois de chamar a funcY na linha 31, o arg1 recebeu um endereço de memoria e arg2 recebeu valor 23;
+
+funcZ: Depois de chamar a funcZ na linha 33,arg 1 recebeu valor 13.
+
+
+Na função (funcX) ambos arg1 e arg2 são recebidos como parâmetro e temporariamente modificados dentro da função e logo após isso somados gerando a variável "result"
+
+Na função (funcY) ambos arg1 e arg2 são recebidos como parâmetro porém a função recebe o endereço de arg1, logo seu valor se transforma temporariamente em seu endereço (0x7ffffffde504)
+
+Na função (funcZ) ambos arg1 e arg2 são recebidos como parâmetro e o valor de arg1 é temporariamente alterado para 13
